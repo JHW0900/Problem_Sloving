@@ -1,8 +1,11 @@
-N = tmp = int(input())
+N = first = int(input())
 cnt = 0
+
 while(True):
+  tmp = N//10 + N%10
+  N = (N%10)*10 + tmp%10
   cnt += 1
-  tmp = (tmp%10*10) + (tmp//10 + tmp%10)
-  if N == tmp: break
+  if first == N:
+    break
 
 print(cnt)
