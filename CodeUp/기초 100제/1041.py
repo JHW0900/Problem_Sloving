@@ -1,0 +1,1 @@
+print("%c" % chr(ord(input()) + 1))
