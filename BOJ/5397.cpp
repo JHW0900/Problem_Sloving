@@ -34,9 +34,7 @@ int main(){
                 t = L.begin();
                 t++;
             }
-            else {
-                L.insert(t, e);
-            }
+            else L.insert(t, e);
         }
         for(auto it : L) cout << it;
         cout << '\n';
