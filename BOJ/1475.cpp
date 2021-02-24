@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+<<<<<<< Updated upstream
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
@@ -32,6 +33,13 @@ int main() {
     }
 
     cout << amt;
+=======
+int main(){
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+
+    
+>>>>>>> Stashed changes
 
     return 0;
 }
