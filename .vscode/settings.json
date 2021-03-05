@@ -11,6 +11,9 @@
         "deque": "cpp",
         "list": "cpp",
         "xstring": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "utility": "cpp",
+        "queue": "cpp",
+        "xutility": "cpp"
     }
 }
