@@ -8,6 +8,6 @@ int main(){
     int skill[4];
     for(int i = 0; i < 4; i++) cin >> skill[i];
 
-    cout << (skill[3] + skill[0]) - (skill[1] + skill[2]);
+    cout << abs((skill[3] + skill[0]) - (skill[1] + skill[2]));
     return 0;
 }
