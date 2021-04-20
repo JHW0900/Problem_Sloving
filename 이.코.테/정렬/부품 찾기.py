@@ -13,7 +13,8 @@ def bin_search(target, arr, start, end):
 if __name__ == "__main__":
     n = int(input())
     num = list(map(int, input().split()))
-
+    num.sort()
+    
     m = int(input())
     target = list(map(int, input().split()))
 
